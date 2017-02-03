@@ -1,21 +1,21 @@
 /*-- HEADER REIGON --*/
-#logo {
+.logo {
 	width: 30%
 }
 
-#menu{
+.menu{
 	width: 50%;
     float: right;
     margin-top: -60px;
 }
 
-#menu ul{
+.menu ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-#menu li{
+.menu li{
 	display: inline;
 }
 
@@ -23,6 +23,11 @@
 body{
 	width: 100%;
 	background-color: #FFFFFF;
+}
+
+.pagewrap{
+    width: 800px;
+    margin: 0 auto;
 }
 
 p{
@@ -56,14 +61,25 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-.accordion-block{
+.accordionblock{
     width: 55%;
     margin-top: 25px;
 }
 
-.tab-block{
+.tabsblock{
     width: 55%;
     margin-top: 40px;
+}
+
+.quote{
+    width: 45%;
+}
+
+.quote p{
+    border-style: solid;
+    /*background-color: lightgrey;*/
+    border-width: 1px 1px 1px 6px;
+    border-color:  #2A535E;
 }
 
 /* TABS STYLING // Style the list START*/
@@ -153,9 +169,10 @@ footer h1{
 	font-size: 25px;
 }
 
-.block4, .block5{
+.footwidget{
 	width: 15%;
 	float: left;
+    font-size: 15px;
 }
 
 .block7{
@@ -167,5 +184,5 @@ footer h1{
 }
 
 .bullet li{
-	font-size: 15px;
+	font-size: 13px;
 }

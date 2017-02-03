@@ -3,16 +3,12 @@
 <head>
 	<title>BUSINESS STACK</title>
 	<link rel="stylesheet" href="css/styles.css?v=1.0">
-	<script src="js/business.js"></script>
 </head>
-<body>
-</body>
-</html>
 	<div class="header">
-		<div id="logo">
+		<div class="logo">
 			<img src="logo.png">
 		</div>
-		<div id="menu">
+		<div class="menu">
 			<ul>
   				<li class="mlinks"><a href="http://www.google.com">Home</a></li>
 				<li class="mlinks"><a href="http://www.google.com">Pages</a></li>
@@ -29,6 +25,7 @@
 	</div>
 </head>
 <body>
+	<div class="pagewrap">
 	<div class="block1">
 		<p>Look again at that dot. That's here. That's home. That's us. On it everyone you love. everyone you know. everyone you ever heard of, every human being who ever was. lived out their lives.</p>
 		<p>The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived</p>
@@ -37,21 +34,21 @@
 		<p>Look again at that dot. That's here. That's home. That's us. On it everyone you love. everyone you know. everyone you ever heard of, every human being who ever was. lived out their lives.</p>
 		<p>The aggregate of our joy and suffering, thousands of conﬁdent religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived</p>
 	</div>
-	<div class="block3">
-		<h1>Blockquote</h1>
-		<p><b>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity,
-		in all this vastness, there is no hint that help will come from elsewhere to save us
-		from ourselves.</b></p>
-		<p>The vehicle explodes. literally explodes. off the pad. The simulator shakes you a little bit, but the actual liftoff shakes 
-		your entire body and soul. The Earth is the only world known so far to harbor life. There is nowhere else, at least
-		in the near future, to which our species</p>
-	</div>
-	<div class="block3">
-		<p>Look again at that dot. That's here. That's home. That's us. On it everyone you love. everyone you know. everyone you ever heard of, every human being who ever was. lived out their lives.</p>
-		<p>The aggregate of our joy and suffering, thousands of conﬁdent religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived</p>
-	</div>
-	
-	<div class="accordion-block">
+	<section>
+		<div class="quote">
+			<h1>Blockquote</h1>
+			<p><b>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity,
+			in all this vastness, there is no hint that help will come from elsewhere to save us
+			from ourselves.</b></p>
+		</div>
+			<p>The vehicle explodes. literally explodes. off the pad. The simulator shakes you a little bit, but the actual liftoff shakes 
+			your entire body and soul. The Earth is the only world known so far to harbor life. There is nowhere else, at least
+			in the near future, to which our species</p>
+	</section>
+
+	<section>
+	<div class="accordionblock">
+		<h1>Accordion</h1>
 		<button class="accordion">Section 1</button>
 		<div class="panel">
 	  		<p>Lorem ipsum...</p>
@@ -67,8 +64,10 @@
 		  <p>Lorem ipsum...</p>
 		</div>
 	</div>
+	</section>
 
-	<div class="tab-block">
+	<section>
+	<div class="tabsblock">
 		<ul class="tab">
 		  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tab1')">Tab 1</a></li>
 		  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tab2')">Tab 2</a></li>
@@ -96,18 +95,24 @@
 		  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		</div>
 	</div>
+	</section>
+  </div>
+	<script src="js/business.js"></script>
 </body>
 <footer>
-	<div class="block4">
-		<h1>Text Widget<h1>
+	<section>
+	<div class="footwidget">
+		<h1>Text Widget</h1>
 		<p>It will never be erased. Each day
 		when you enter the room these 
 		words will remind you of the 
 		price paid by Grissom</p>
-	</div>
-	<div class="block5">
+	<div>
+	</section>
+	<section>
+	<div class="footwidget">
 		<ul class="bullet">
-			<h1>Links Widget<h1>
+			<h1>Links Widget</h1>
   			<li><a href="http://www.google.com">Home</a></li>
 			<li><a href="http://www.google.com">Pages</a></li>
 			<li><a href="http://www.google.com">Blank</a></li>
@@ -115,8 +120,10 @@
 			<li><a href="http://www.google.com">Contact</a></li>
 		</ul>
 	</div>
-	<div class="block7">
-		<h2>Form Email</h1>
+	</section>
+	</div>
+	<section>
+		<h1>Form Email</h1>
 		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 		  <input type="text" name="name" placeholder="Name"><br>
   		  <input type="text" name="email" placeholder="Email"><br>
@@ -124,6 +131,7 @@
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
 		</form>
+	</section>
 	</div>
 	<div class="block1"></div>
 	<div class="block1"></div>
