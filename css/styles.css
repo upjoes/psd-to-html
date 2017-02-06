@@ -273,18 +273,12 @@ footer h1{
 	font-size: 13px;
 }
 
-/*ul.social-networking{ 
-    margin:0px 0 0 0; 
-    text-align:center; 
-    display:block; 
-    float:left; 
-    padding:0px 0px 0px 0px; 
-    font-size:12px;
+.logo-link{ 
+    width:560px;
+    height:130px;
+    text-decoration:none;
+    display:block;
+    background-image:url(../images/sprites.png);
+    background-position:191px 0;
+    background-repeat: no-repeat;
 }
-
-.social-networking li { 
-    margin: 0; 
-    padding: 0; 
-    list-style: none; 
-    background: url(i/clean-social-icons.jpg) no-repeat; 
-}*/
