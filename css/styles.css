@@ -3,7 +3,7 @@
 	width: 30%
 }
 
-ul.topnav {
+ul.topmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,12 +16,12 @@ ul.topnav {
 }
 
 /* Float the list items side by side */
-ul.topnav li {
+ul.topmenu li {
     float: left;
 }
 
 /* Style the links inside the list items */
-ul.topnav li a {
+ul.topmenu li a {
     display: inline-block;
     color: #1F987D;
     text-align: center;
@@ -33,11 +33,13 @@ ul.topnav li a {
     border-top: 5px solid #1F987D;
 }
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
+ul.topmenu li a:hover {
+    background-color: #555;
+}
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+ul.topmenu li.icon {
+    display: none;
+}
 
 /*.menu{
 	width: 50%;
@@ -148,10 +150,10 @@ ul.tab {
     background-color: #f1f1f1;
 }
 
-/* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li {
+    float: left;
+}
 
-/* Style the links inside the list items */
 ul.tab li a {
     display: inline-block;
     color: black;
@@ -162,11 +164,13 @@ ul.tab li a {
     font-size: 17px;
 }
 
-/* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+ul.tab li a:hover {
+    background-color: #ddd;
+}
 
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: #ccc;}
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
 
 /* Style the tab content END*/
 .tabcontent {
@@ -176,7 +180,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     border-top: none;
 }
 
-/* ACCORDION STYLING START Style the buttons that are used to open and close the accordion panel*/
+/* ACCORDION STYLING START */
 button.accordion {
     background-color: #eee;
     color: #444;
@@ -268,3 +272,19 @@ footer h1{
 .bullet li{
 	font-size: 13px;
 }
+
+/*ul.social-networking{ 
+    margin:0px 0 0 0; 
+    text-align:center; 
+    display:block; 
+    float:left; 
+    padding:0px 0px 0px 0px; 
+    font-size:12px;
+}
+
+.social-networking li { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    background: url(i/clean-social-icons.jpg) no-repeat; 
+}*/
