@@ -3,7 +3,43 @@
 	width: 30%
 }
 
-.menu{
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    width: 30%;
+    float: right;
+    margin-top: -75px;
+    margin-right: 145px; 
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+    float: left;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #1F987D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: arial;
+    border-top: 5px solid #1F987D;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/*.menu{
 	width: 50%;
     float: right;
     margin-top: -60px;
@@ -17,6 +53,10 @@
 
 .menu li{
 	display: inline;
+}*/
+
+h1{
+    font-family: arial;
 }
 
 /*-- BODY REIGON --*/
@@ -30,19 +70,35 @@ body{
     margin: 0 auto;
 }
 
+.columnstrip{
+    background-color: #1F987D;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: arial;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-top: -15px;
+    text-align: center;
+}
+
 p{
 	font-family: arial;
+    margin-bottom: 25px;
 }
 
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: #FFFFFF;
     font-size: 17px;
+    border-top: 2px solid #F7F7F7;
+    border-bottom: 2px solid #F7F7F7;
 }
 
 ul.breadcrumb li {
 	display: inline;
+    font-size: 15px;
+    font-family: arial;
 }
 
 ul.breadcrumb li+li:before {
@@ -52,7 +108,7 @@ ul.breadcrumb li+li:before {
 }
 
 ul.breadcrumb li a {
-    color: #0275d8;
+    color: #2A535E;
     text-decoration: none;
 }
 
@@ -62,17 +118,17 @@ ul.breadcrumb li a:hover {
 }
 
 .accordionblock{
-    width: 55%;
+    width: 90%;
     margin-top: 25px;
 }
 
 .tabsblock{
-    width: 55%;
+    width: 90%;
     margin-top: 40px;
 }
 
 .quote{
-    width: 45%;
+    width: 90%;
 }
 
 .quote p{
@@ -163,20 +219,46 @@ button.accordion.active:after {
 footer{
 	width: 100%;
 	background-color: #1F987D;
+    margin-top: 70px;
 }
 
 footer h1{
-	font-size: 25px;
+	font-size: 20px;
+    color: #FFFFFF;
 }
 
 .footwidget{
 	width: 15%;
 	float: left;
     font-size: 15px;
+    margin-left: 70px;
 }
 
-.block7{
-	/*float: left;*/
+.footwidget p{
+    color: #FFFFFF;
+}
+
+.footerstrip {
+    width: 85%;
+}
+
+.footerform{
+    width: 30%;
+    float: right;
+}
+
+.formbox{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.message{
+    height: 70px;
+    font-style: italic;
+}
+
+.block1{
+	margin-top: 60px;
 }
 
 .block4 p{
