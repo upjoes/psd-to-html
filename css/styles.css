@@ -67,11 +67,11 @@ body{
 	background-color: #FFFFFF;
 }
 
-.pagewrap{
+/*.pagewrap{
     width: 800px;
     margin: 0 auto;
 }
-
+*/
 .columnstrip{
     background-color: #1F987D;
     border-top: 2px solid black;
@@ -120,24 +120,32 @@ ul.breadcrumb li a:hover {
 }
 
 .accordionblock{
-    width: 90%;
+    /*width: 90%;*/
+    width: 45%;
     margin-top: 25px;
 }
 
 .tabsblock{
-    width: 90%;
+    /*width: 90%;*/
+    width: 45%;
     margin-top: 40px;
 }
 
 .quote{
-    width: 90%;
+    /*width: 90%;*/
+    width: 45%;
 }
 
 .quote p{
     border-style: solid;
     /*background-color: lightgrey;*/
     border-width: 1px 1px 1px 6px;
-    border-color:  #2A535E;
+    border-color:  #1F987D;
+    border-left: 6px solid #2A535E;
+}
+
+.block2{
+    width: 45%;
 }
 
 /* TABS STYLING // Style the list START*/
@@ -172,12 +180,50 @@ ul.tab li a:focus, .active {
     background-color: #ccc;
 }
 
-/* Style the tab content END*/
 .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+/* Style the tab content END*/
+
+.sideblog{
+    /*width: 40%;*/
+    width: 20%;
+    float: right;
+    margin-right: 180px;
+}
+
+.sidetable{
+    width: 20%;
+    float: right;
+    clear: right;
+    margin-right: 125px;
+}
+
+table{
+    border: 3px solid #1F987D;
+    border-collapse: collapse;
+    /*width: 50%;*/
+    width: 80%;
+    font-family: arial;
+    border-left: 10px solid #2A535E;
+    color: #2A535E;
+}
+
+ul.blog li a{
+    text-decoration: none;
+    color: #2A535E;
+    font-family: arial;
+}
+
+ul.blog li {
+    border-bottom: 2px solid #1F987D;
+}
+
+.blog {
+    list-style: none;
 }
 
 /* ACCORDION STYLING START */
@@ -287,6 +333,7 @@ span {
 
 .block1{
 	margin-top: 60px;
+    width: 50%
 }
 
 .block4 p{
