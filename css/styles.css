@@ -224,6 +224,7 @@ footer{
 	width: 100%;
 	background-color: #1F987D;
     margin-top: 70px;
+    border-top: 5px solid #2A535E;;
 }
 
 footer h1{
@@ -238,6 +239,27 @@ footer h1{
     margin-left: 70px;
 }
 
+.twitterwidget{
+    width: 15%;
+    float: left;
+    font-size: 15px;
+    margin-left: 70px;
+    color: #FFFFFF;
+}
+
+span {
+    font-style: italic;
+}
+
+.border{
+    border: 2px solid #000;
+    border-radius: 13px;
+    width: 110%;
+    height: 130px;
+    background-color: #1F987D;
+    box-shadow: 3px 3px 5px #000;
+}
+
 .footwidget p{
     color: #FFFFFF;
 }
@@ -247,8 +269,10 @@ footer h1{
 }
 
 .footerform{
-    width: 30%;
+    width: 35%;
     float: right;
+    /*margin-top: 15px;*/
+    margin-right: -60px;
 }
 
 .formbox{
@@ -273,12 +297,25 @@ footer h1{
 	font-size: 13px;
 }
 
-.logo-link{ 
-    width:560px;
-    height:130px;
+.socialicons{ 
+    width:350px;
+    height:55px;
     text-decoration:none;
     display:block;
     background-image:url(../images/sprites.png);
-    background-position:191px 0;
+    background-position:70px 0;
     background-repeat: no-repeat;
+    clear: both;
+}
+
+.twitter{
+    width:1200px;
+    height:55px;
+    text-decoration:none;
+    display:block;
+    background-image:url(../images/tumblr_circle_gray.png);
+    background-position:70px 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 553px;
 }
