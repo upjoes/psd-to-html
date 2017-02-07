@@ -206,7 +206,7 @@ div.panel {
 
 /* Style the accordion panel. Note: hidden by default END*/
 button.accordion:after {
-    content: '\02795';  Unicode character for "plus" sign (+) 
+    content: '\02795';  /*Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
