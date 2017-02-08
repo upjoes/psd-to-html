@@ -81,15 +81,17 @@ body{
     font-style: italic;
     margin-top: -15px;
     text-align: center;
+    margin-bottom: 55px;
 }
 
 p{
 	font-family: arial;
     margin-bottom: 25px;
+    color: #2A535E;
 }
 
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 5px 95px;
     list-style: none;
     background-color: #FFFFFF;
     font-size: 17px;
@@ -123,17 +125,20 @@ ul.breadcrumb li a:hover {
     /*width: 90%;*/
     width: 45%;
     margin-top: 25px;
+    margin-left: 100px;
 }
 
 .tabsblock{
     /*width: 90%;*/
     width: 45%;
     margin-top: 40px;
+    margin-left: 100px;
 }
 
 .quote{
     /*width: 90%;*/
     width: 45%;
+    margin-left: 100px;
 }
 
 .quote p{
@@ -146,6 +151,7 @@ ul.breadcrumb li a:hover {
 
 .block2{
     width: 45%;
+    margin-left: 100px;
 }
 
 /* TABS STYLING // Style the list START*/
@@ -188,6 +194,10 @@ ul.tab li a:focus, .active {
 }
 /* Style the tab content END*/
 
+.sidebar h1{
+    font-size: 15px;
+}
+
 .sideblog{
     /*width: 40%;*/
     width: 20%;
@@ -195,11 +205,15 @@ ul.tab li a:focus, .active {
     margin-right: 180px;
 }
 
+.sideblog h1{
+    margin-left: 39px;
+}
+
 .sidetable{
-    width: 20%;
+    width: 22%;
     float: right;
     clear: right;
-    margin-right: 125px;
+    margin-right: 110px;
 }
 
 table{
@@ -208,8 +222,14 @@ table{
     /*width: 50%;*/
     width: 80%;
     font-family: arial;
-    border-left: 10px solid #2A535E;
+    /*border-left: 10px solid #2A535E;*/
     color: #2A535E;
+}
+
+tr:nth-child(2){
+    color: white;
+    background-color: #1F987D;
+    border-left: 4px solid #2A535E;
 }
 
 ul.blog li a{
@@ -219,7 +239,7 @@ ul.blog li a{
 }
 
 ul.blog li {
-    border-bottom: 2px solid #1F987D;
+    border-bottom: 1px solid #1F987D;
 }
 
 .blog {
@@ -285,11 +305,22 @@ footer h1{
     margin-left: 70px;
 }
 
-.twitterwidget{
+.linkwidget{
     width: 15%;
     float: left;
     font-size: 15px;
     margin-left: 70px;
+}
+
+.twitterwidget{
+    width: 15%;
+    float: left;
+    font-size: 15px;
+    margin-left: 130px;
+    color: #FFFFFF;
+}
+
+.twitterwidget p {
     color: #FFFFFF;
 }
 
@@ -333,7 +364,8 @@ span {
 
 .block1{
 	margin-top: 60px;
-    width: 50%
+    width: 50%;
+    margin-left: 100px;
 }
 
 .block4 p{
@@ -341,7 +373,15 @@ span {
 }
 
 .bullet li{
-	font-size: 13px;
+	font-size: 15px;
+    list-style-image: url('../images/bullet_green.png');
+    font-family: arial;
+    color: #36B047;
+}
+
+.bullet li a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .socialicons{ 
@@ -355,14 +395,14 @@ span {
     clear: both;
 }
 
-.twitter{
-    width:1200px;
+/*.twitter{
+    width:120px;
     height:55px;
     text-decoration:none;
     display:block;
-    background-image:url(../images/tumblr_circle_gray.png);
+    background-image:url(../images/twitter_icon.png);
     background-position:70px 0;
     background-repeat: no-repeat;
     position: absolute;
     left: 553px;
-}
+}*/
