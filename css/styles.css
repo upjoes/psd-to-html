@@ -80,8 +80,12 @@ body{
     color: #FFFFFF;
     font-style: italic;
     margin-top: -15px;
-    text-align: center;
     margin-bottom: 55px;
+}
+
+.columnstrip h2{
+    width: 15%;
+    margin-left: 100px;
 }
 
 p{
@@ -188,44 +192,6 @@ ul.tabs li.current{
 .tabcontent.current{
     display: inherit;
 }
-
-/*ul.tab {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-ul.tab li {
-    float: left;
-}
-
-ul.tab li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-ul.tab li a:hover {
-    background-color: #ddd;
-}
-
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}*/
 /* Style the tab content END*/
 
 .sidebar h1{
@@ -248,6 +214,10 @@ ul.tab li a:focus, .active {
 }
 
 .sideblog h1{
+    margin-left: 39px;
+}
+
+.sidetweet h1{
     margin-left: 39px;
 }
 
@@ -300,7 +270,7 @@ button.accordion {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 button.accordion.active, button.accordion:hover {
@@ -318,9 +288,10 @@ button.accordion:after {
     /*content: '\02795';*/ 
     content: '\2228';
     font-size: 13px;
-    color: #777;
+    color: #FFFFFF;
     float: right;
     margin-left: 5px;
+    background: #2A535E;
 }
 
 button.accordion.active:after {
