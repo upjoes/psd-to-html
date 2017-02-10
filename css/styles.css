@@ -147,10 +147,11 @@ ul.breadcrumb li a:hover {
 
 .quote p{
     border-style: solid;
-    /*background-color: lightgrey;*/
     border-width: 1px 1px 1px 6px;
     border-color:  #1F987D;
     border-left: 6px solid #2A535E;
+    line-height: 25px;
+    font-style: italic;
 }
 
 .block2{
@@ -172,7 +173,7 @@ ul.tabs li{
     display: inline-block;
     padding: 10px 15px;
     cursor: pointer;
-    border: 1px solid;
+    border: 1px solid #1F987D;
 }
 
 ul.tabs li.current{
@@ -186,7 +187,7 @@ ul.tabs li.current{
     display: none;
     background: none;
     padding: 15px;
-    border: 1px solid;
+    border: 1px solid #1F987D;
 }
 
 .tabcontent.current{
@@ -200,17 +201,17 @@ ul.tabs li.current{
 
 .sideblog{
     /*width: 40%;*/
-    width: 20%;
+    width: 18%;
     float: right;
-    margin-right: 180px;
+    margin-right: 260px;
 }
 
 .sidetweet{
     /*width: 40%;*/
     width: 20%;
     float: right;
-    margin-right: 180px;
     clear: right;
+    margin-right: 225px;
 }
 
 .sideblog h1{
@@ -222,27 +223,42 @@ ul.tabs li.current{
 }
 
 .sidetable{
-    width: 22%;
+    width: 19%;
     float: right;
     clear: right;
-    margin-right: 110px;
+    margin-right: 206px;
+    margin-bottom: 15px;
 }
 
 table{
-    border: 3px solid #1F987D;
     border-collapse: collapse;
-    /*width: 50%;*/
-    width: 80%;
+    width: 85%;
     font-family: arial;
-    /*border-left: 10px solid #2A535E;*/
     color: #2A535E;
 }
 
-tr:nth-child(2){
+td {
+    border: 1px solid #1F987D;
+    padding: 5px;
+    text-align: left;
+}
+
+td a{
+    color: #2A535E;
+    text-decoration: none;
+}
+
+td.current{
+    color: #FFFFFF;
+    background-color: #1F987D;
+    border-left: 5px solid #2A535E;
+}
+
+/*tr:nth-child(2){
     color: white;
     background-color: #1F987D;
     border-left: 4px solid #2A535E;
-}
+}*/
 
 ul.blog li a{
     text-decoration: none;
@@ -250,12 +266,51 @@ ul.blog li a{
     font-family: arial;
 }
 
+ul.blog li:after{
+    /*content: '\2467';*/
+    /*content: '\2792';*/
+    content: '\2776';
+    font-size: 14px;
+    float: right;
+    color: #2A535E;
+}
+
 ul.blog li {
     border-bottom: 1px solid #1F987D;
+    margin-bottom: 10px;
 }
 
 .blog {
     list-style: none;
+}
+
+ul.tweets li a{
+    text-decoration: none;
+    color: #2A535E;
+    font-family: arial;
+}
+
+ul.tweets li {
+    border-bottom: 1px solid #1F987D;
+    margin-bottom: 10px;
+}
+
+.tweets {
+    list-style: none;
+}
+
+.iconpng{
+    width: 45px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8.7px;
+    border-color: transparent transparent transparent #2a535e;
+    margin-left: 40px;
+    margin-bottom: -21px;
 }
 
 /* ACCORDION STYLING START */
