@@ -1,6 +1,6 @@
 /*-- HEADER REIGON --*/
-.logo {
-	width: 30%
+.logo img{
+	width: 25%
 }
 
 ul.topmenu {
@@ -313,6 +313,22 @@ ul.tweets li {
     margin-bottom: -21px;
 }
 
+.icon-footer{
+    width: 45px;
+    margin-left: -59px;
+    margin-top: 21px;
+}
+
+.triangle-footer{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9.5px 0 9.5px 16.5px;
+    border-color: transparent transparent transparent #167863;
+    float: left;
+    margin-top: 34px;
+}
+
 /* ACCORDION STYLING START */
 button.accordion {
     background-color: #eee;
@@ -384,15 +400,19 @@ footer h1{
 }
 
 .twitterwidget{
-    width: 15%;
+    width: 20%;
     float: left;
     font-size: 15px;
-    margin-left: 130px;
+    margin-left: 20px;
     color: #FFFFFF;
 }
 
 .twitterwidget p {
     color: #FFFFFF;
+}
+
+.twitter-wrapper{
+    float: left;
 }
 
 span {
@@ -402,7 +422,7 @@ span {
 .border{
     border: 2px solid #000;
     border-radius: 13px;
-    width: 110%;
+    width: 100%;
     height: 130px;
     background-color: #1F987D;
     box-shadow: 3px 3px 5px #000;
@@ -421,6 +441,33 @@ span {
     float: right;
     /*margin-top: 15px;*/
     margin-right: -60px;
+    position: relative;
+}
+
+.submit-button{
+    position: absolute;
+    top: 170px;
+    left: 140px;
+/*    -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+    box-shadow:inset 0px 1px 0px 0px #9acc85;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+    background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+    background-color:#74ad5a;
+    border:1px solid #3b6e22;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 25px;
+    text-decoration:none;*/
 }
 
 .formbox{
@@ -465,15 +512,3 @@ span {
     background-repeat: no-repeat;
     clear: both;
 }
-
-/*.twitter{
-    width:120px;
-    height:55px;
-    text-decoration:none;
-    display:block;
-    background-image:url(../images/twitter_icon.png);
-    background-position:70px 0;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 553px;
-}*/
