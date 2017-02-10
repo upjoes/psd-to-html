@@ -432,8 +432,9 @@ span {
     color: #FFFFFF;
 }
 
-.footerstrip {
-    width: 85%;
+.footer-strip {
+    width: 90%;
+    margin-left: 23px;
 }
 
 .footerform{
