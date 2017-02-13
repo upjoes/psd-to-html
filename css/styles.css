@@ -67,7 +67,7 @@ body{
 	background-color: #FFFFFF;
 }
 
-/*.pagewrap{
+/*.page-wrap{
     width: 800px;
     margin: 0 auto;
 }
@@ -140,18 +140,23 @@ ul.breadcrumb li a:hover {
 }
 
 .quote{
-    /*width: 90%;*/
-    width: 45%;
-    margin-left: 100px;
+    width: 50%;
+    margin-left: 60px;
 }
 
-.quote p{
+.quote h1{
+    margin-left: 40px;
+}
+
+.quote blockquote{
     border-style: solid;
     border-width: 1px 1px 1px 6px;
     border-color:  #1F987D;
     border-left: 6px solid #2A535E;
     line-height: 25px;
     font-style: italic;
+    font-family: arial;
+    color: #2A535E;
 }
 
 .block2{
