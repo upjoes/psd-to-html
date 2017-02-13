@@ -72,7 +72,7 @@ body{
     margin: 0 auto;
 }
 */
-.columnstrip{
+.column-strip{
     background-color: #1F987D;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -83,7 +83,7 @@ body{
     margin-bottom: 55px;
 }
 
-.columnstrip h2{
+.column-strip h2{
     width: 15%;
     margin-left: 100px;
 }
@@ -125,7 +125,7 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-.accordionblock{
+.accordion-block{
     /*width: 90%;*/
     width: 45%;
     margin-top: 25px;
@@ -204,14 +204,14 @@ ul.tabs li.current{
     font-size: 15px;
 }
 
-.sideblog{
+.side-blog{
     /*width: 40%;*/
     width: 18%;
     float: right;
     margin-right: 260px;
 }
 
-.sidetweet{
+.side-tweet{
     /*width: 40%;*/
     width: 20%;
     float: right;
@@ -219,15 +219,15 @@ ul.tabs li.current{
     margin-right: 225px;
 }
 
-.sideblog h1{
+.side-blog h1{
     margin-left: 39px;
 }
 
-.sidetweet h1{
+.side-tweet h1{
     margin-left: 39px;
 }
 
-.sidetable{
+.side-table{
     width: 19%;
     float: right;
     clear: right;
@@ -235,28 +235,34 @@ ul.tabs li.current{
     margin-bottom: 15px;
 }
 
-table{
-    border-collapse: collapse;
-    width: 85%;
-    font-family: arial;
+.side-nav{
+    width: 16%;
+    float: right;
+    clear: right;
+    margin-right: 250px;
+}
+
+dl{
+    border: 1px solid #1F987D;
+    text-align: left;
     color: #2A535E;
 }
 
-td {
-    border: 1px solid #1F987D;
-    padding: 5px;
-    text-align: left;
-}
-
-td a{
+dt a{
     color: #2A535E;
     text-decoration: none;
 }
 
-td.current{
+dt.current{
     color: #FFFFFF;
     background-color: #1F987D;
     border-left: 5px solid #2A535E;
+}
+
+
+dt{
+    border-bottom: 1px solid #1F987D;
+    padding: 5px;
 }
 
 /*tr:nth-child(2){
@@ -304,7 +310,7 @@ ul.tweets li {
     list-style: none;
 }
 
-.iconpng{
+.icon-png{
     width: 45px;
 }
 
@@ -390,21 +396,21 @@ footer h1{
     color: #FFFFFF;
 }
 
-.footwidget{
+.foot-widget{
 	width: 15%;
 	float: left;
     font-size: 15px;
     margin-left: 70px;
 }
 
-.linkwidget{
+.link-widget{
     width: 15%;
     float: left;
     font-size: 15px;
     margin-left: 70px;
 }
 
-.twitterwidget{
+.twitter-widget{
     width: 20%;
     float: left;
     font-size: 15px;
@@ -412,7 +418,7 @@ footer h1{
     color: #FFFFFF;
 }
 
-.twitterwidget p {
+.twitter-widget p {
     color: #FFFFFF;
 }
 
@@ -433,7 +439,7 @@ span {
     box-shadow: 3px 3px 5px #000;
 }
 
-.footwidget p{
+.foot-widget p{
     color: #FFFFFF;
 }
 
@@ -442,7 +448,7 @@ span {
     margin-left: 23px;
 }
 
-.footerform{
+.footer-form{
     width: 35%;
     float: right;
     /*margin-top: 15px;*/
@@ -452,9 +458,9 @@ span {
 
 .submit-button{
     position: absolute;
-    top: 170px;
-    left: 140px;
-/*    -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+    top: 168px;
+    left: 180px;
+/*  -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
     -webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
     box-shadow:inset 0px 1px 0px 0px #9acc85;
     background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
