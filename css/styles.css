@@ -311,7 +311,7 @@ ul.tweets li {
 }
 
 .icon-png{
-    width: 45px;
+    width: 30px;
 }
 
 .triangle{
@@ -320,8 +320,8 @@ ul.tweets li {
     border-style: solid;
     border-width: 5px 0 5px 8.7px;
     border-color: transparent transparent transparent #2a535e;
-    margin-left: 40px;
-    margin-bottom: -21px;
+    margin-left: 27px;
+    margin-bottom: -15px;
 }
 
 .icon-footer{
@@ -458,29 +458,20 @@ span {
 
 .submit-button{
     position: absolute;
-    top: 168px;
-    left: 180px;
-/*  -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
-    box-shadow:inset 0px 1px 0px 0px #9acc85;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
-    background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
-    background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
-    background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
-    background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
-    background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
-    background-color:#74ad5a;
-    border:1px solid #3b6e22;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:16px;
-    font-weight:bold;
-    padding:6px 25px;
-    text-decoration:none;*/
+    top: 160px;
+    left: 183px;
 }
+
+input[type=submit] {
+    padding:5px; 
+    border: 2px solid #34AA44; 
+    -webkit-border-radius: 5px;
+    border-radius: 0px;
+    background-color: #34AA44;
+    color: #ffffff;
+    font-family: arial;
+}
+
 
 .formbox{
     margin-bottom: 10px;
@@ -523,4 +514,8 @@ span {
     background-position:70px 0;
     background-repeat: no-repeat;
     clear: both;
+}
+
+.socialicons p{
+    display: none;
 }
